@@ -1,0 +1,22 @@
+/* Write your code here: */
+h1, h2{
+    color:blueviolet;
+}
+
+/* This is dealing with the child directly under the parent element */
+.box > p{
+    color:firebrick;
+}
+
+/* This is dealing with the descendant i.e the children of the child */
+.box li{
+    color:blue;
+}
+
+li.done{
+    color: seagreen;
+}
+
+ul p.done{
+    font-size:0.5rem;
+}

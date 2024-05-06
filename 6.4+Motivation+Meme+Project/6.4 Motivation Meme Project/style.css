@@ -1,0 +1,26 @@
+body{
+    background:black;
+}
+
+h1{
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.center{
+/* border: 5px solid white; */
+  position: absolute;
+  margin:auto;
+   top: 50%; /*This state 50% from the top */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0px;
+  color: white;
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+}
+
+.motive-pics{
+   border: 2px solid white;
+   width:70%
+} 
